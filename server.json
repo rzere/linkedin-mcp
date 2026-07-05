@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.rzere/linkedin-mcp",
   "title": "Apex by LeadShark — discovery",
-  "description": "No-auth MCP discovery endpoint for Apex by LeadShark. Completes the handshake and exposes info tools (about_apex, get_setup_steps, first_plays); the full authenticated 35-tool LinkedIn operator server is at https://apex.leadshark.io/mcp.",
+  "description": "No-auth discovery endpoint for Apex by LeadShark — governed LinkedIn hands for AI agents.",
   "version": "1.0.0",
   "websiteUrl": "https://www.apex.new",
   "repository": {
