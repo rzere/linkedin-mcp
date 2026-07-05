@@ -31,6 +31,15 @@ const SERVER_INFO = {
   name: "linkedin-mcp",
   title: "Apex by LeadShark — discovery",
   version: "1.0.0",
+  // Connector image + site, per the MCP icons spec.
+  websiteUrl: "https://apex.new",
+  icons: [
+    {
+      src: "https://www.apex.new/brand/leadshark-black.png",
+      mimeType: "image/png",
+      sizes: ["256x256"],
+    },
+  ],
 };
 
 const INSTRUCTIONS = [

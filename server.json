@@ -10,6 +10,18 @@
     "source": "github"
   },
   "remotes": [
-    { "type": "streamable-http", "url": "https://www.apex.new/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://www.apex.new/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://www.apex.new/brand/leadshark-black.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    }
   ]
 }

@@ -1,6 +1,6 @@
 # linkedin-mcp
 
-[![Apex MCP — as seen on mcpexplorer.com](https://mcpexplorer.com/badge/apex.svg)](https://mcpexplorer.com/mcps/apex)
+[![Apex MCP — featured on mcpexplorer.com](https://mcpexplorer.com/badge/apex.svg)](https://mcpexplorer.com/mcps/apex)
 
 **Governed LinkedIn hands for AI agents.** This is the public face of [Apex by LeadShark](https://www.apex.new) — an MCP loadout that lets Claude, ChatGPT, or Cursor operate a real LinkedIn account in plain English: find buyers, rank intent, comment, connect, and message. Every action is paced, capped, approval-queued where needed, and fully logged.
 
