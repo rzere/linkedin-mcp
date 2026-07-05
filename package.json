@@ -1,0 +1,31 @@
+{
+  "name": "linkedin-mcp",
+  "version": "1.0.0",
+  "description": "Minimal, dependency-free MCP discovery server for Apex by LeadShark — governed LinkedIn hands for AI agents.",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzere/linkedin-mcp.git"
+  },
+  "homepage": "https://www.apex.new",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "linkedin",
+    "ai-agents",
+    "claude",
+    "chatgpt",
+    "cursor",
+    "leadshark",
+    "apex"
+  ],
+  "author": "rzere",
+  "license": "MIT"
+}
