@@ -18,7 +18,7 @@ Most LinkedIn tooling automates what you already decided: schedule this post, DM
 
 An agent running Apex works a loop: **See → Decide → Act.** Find the posts and people where attention already is, figure out who's worth engaging and with what angle, then engage — inside the account's safety budget.
 
-## The loadout — 35 tools, See → Decide → Act
+## The loadout — 36 tools, See → Decide → Act
 
 The full authenticated server at `https://apex.leadshark.io/mcp` equips your agent with:
 
