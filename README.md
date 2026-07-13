@@ -18,14 +18,14 @@ Most LinkedIn tooling automates what you already decided: schedule this post, DM
 
 An agent running Apex works a loop: **See → Decide → Act.** Find the posts and people where attention already is, figure out who's worth engaging and with what angle, then engage — inside the account's safety budget.
 
-## The loadout — 36 tools, See → Decide → Act
+## The loadout — 40 tools, See → Decide → Act
 
 The full authenticated server at `https://apex.leadshark.io/mcp` equips your agent with:
 
-### See / discover — where is the demand?
+### See / discover — where is the demand? (Apex, except `discover_lead_magnets`)
 `search` · `discover_lead_magnets` · `list_signals` · `feed` · `list_recent_posts` · `list_person_posts` · `list_post_engagers` · `get_person_activity`
 
-Find people and companies, pull a continuously refreshed radar of prospect-rich lead-magnet posts, list your heat-scored inbound signals, turn one viral post into a warm lead list, and see the rooms a prospect is already in (`get_person_activity` — who they comment on, what they react to).
+Find people and companies, pull a continuously refreshed radar of prospect-rich lead-magnet posts, list your heat-scored inbound signals, turn one viral post into a warm lead list, and see the rooms a prospect is already in (`get_person_activity` — who they comment on, what they react to). `discover_lead_magnets` is available on the **Pro+** MCP floor (it doubles as content market-signal); the rest of this group is Apex.
 
 ### Decide / context — who is worth your time?
 `enrich` · `enrich_company` · `get_lead_activity`
@@ -38,14 +38,19 @@ Structured profiles for a person or account: role, company, activity, connection
 Show up where the prospect's attention already is — warm them up in public before anything lands in their inbox. Triage inbound connection requests too.
 
 ### Act — messaging
-`list_recent_messages` · `get_messages_with_person` · `send_message`
+`list_recent_messages` · `get_messages_with_person` · `send_message` · `send_email`
 
-Read the inbox, pull a full thread with one person, send the DM — deduped, paced, and logged.
+Read the inbox, pull a full thread with one person, send the DM — deduped, paced, and logged. `send_email` sends through your own connected Resend account (BYO key).
 
-### Company Pages (Pro+ baseline)
-`list_companies` · `comment_as_company` · `react_as_company`
+### Company Pages
+`list_companies` (Pro+) · `comment_as_company` · `react_as_company` · `manage_company_reply_automations`
 
-Engage in your Company Page's voice on pages you administer.
+List and schedule to pages you administer on **Pro+**; acting in the page's *voice* — commenting, reacting, and running reply-only comment automations as the page — is **Apex**.
+
+### Pages & captured leads (Apex)
+`list_lead_pages` · `get_page_leads` · `list_lead_magnet_links`
+
+Read the leads your lead magnets captured — pages with capture stats, the deduped enriched email leads for a page, and your standalone `leads.sh` capture links — to feed the enrich → act loop.
 
 ### Automations & scheduled posts (Pro+ baseline)
 `create_automation` · `list_automations` · `get_automation` · `edit_automation` · `suggest_automation_settings` · `schedule_post_with_automation` · `list_scheduled_posts` · `get_scheduled_post` · `edit_scheduled_post` · `cancel_scheduled_post`

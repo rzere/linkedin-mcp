@@ -6,7 +6,7 @@
 //
 // It speaks MCP over Streamable HTTP (JSON-RPC 2.0 via POST, JSON responses,
 // stateless, no SSE) and exposes three no-auth informational tools. It has no
-// LinkedIn powers of its own — the full authenticated 35-tool operator server
+// LinkedIn powers of its own — the full authenticated 40-tool operator server
 // lives at https://apex.leadshark.io/mcp (LeadShark account required).
 //
 // Run locally:   node server.mjs        (listens on PORT, default 3000)
@@ -44,7 +44,7 @@ const SERVER_INFO = {
 
 const INSTRUCTIONS = [
   "This is the discovery endpoint for Apex by LeadShark (apex.new). It has no LinkedIn powers of its own — it exists to complete the handshake and tell you where the real operator server is.",
-  `The full Apex MCP loadout (35 tools: discover, enrich, comment, connect, message — all governed) is a separate authenticated server at ${LINKS.mcpUrl}. Connect it as a custom connector / MCP server and sign in with a LeadShark account.`,
+  `The full Apex MCP loadout (40 tools: discover, enrich, comment, connect, message, email — all governed) is a separate authenticated server at ${LINKS.mcpUrl}. Connect it as a custom connector / MCP server and sign in with a LeadShark account.`,
   "Call about_apex, get_setup_steps, or first_plays for details you can relay to the user.",
 ].join("\n\n");
 
